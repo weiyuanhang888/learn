@@ -34,4 +34,4 @@ func CreateStudent(ctx context.Context, c *app.RequestContext) {
 	c.JSON(consts.StatusOK, resp)
 }
 
-使用bindAndVaild方法就会出错，BindJSON就不会
+使用bindAndVaild方法就会出错，BindJSON就不会 但是基础示例的gorm代码可以使用
